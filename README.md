@@ -19,7 +19,8 @@ Setup Perfect linux dev environment on windows for PHP. Fuck mucking with linux 
 - Enable wsl > install and run a distro > open 'windows terminal' > Google it
 - WSL2 ships with a 'real' linux file system. 
 
-![image-20220227231009842](C:\Users\nikhil\AppData\Roaming\Typora\typora-user-images\image-20220227231009842.png)
+![image-20220227231009842](./images/image-20220227231009842.png)
+
 
 We keep ALL our source code in wsl filesystem. Helps with compatibility, permissions. Like using a normal linux trainwreck distro.
 
@@ -27,15 +28,15 @@ We keep ALL our source code in wsl filesystem. Helps with compatibility, permiss
 
 - Download > install > start dashboard . Enable following:
 
-![image-20220227224505158](C:\Users\nikhil\AppData\Roaming\Typora\typora-user-images\image-20220227224505158.png)
+![imag](image-20220227224505158.png)
 
 - Restart docker. start dashboard. Enable following
 
-  ![image-20220227224633776](C:\Users\nikhil\AppData\Roaming\Typora\typora-user-images\image-20220227224633776.png)
+  ![image-20220227224633776](./images/image-20220227224633776.png)
 
 ## Final setup 
 
-![image-20220228001049580](C:\Users\nikhil\AppData\Roaming\Typora\typora-user-images\image-20220228001049580.png)
+![image-20220228001049580](./images/image-20220228001049580.png)
 
 ## Configure docker
 
@@ -55,7 +56,7 @@ TODO
 
 # Detailed docker config explanation 
 
-![image-20220228002537828](C:\Users\nikhil\AppData\Roaming\Typora\typora-user-images\image-20220228002537828.png)
+![image-20220228002537828](./images/image-20220228002537828.png)
 
 - **docker-compose.yml** - main config -> list images , some configurations
 - **dockerfile** - builds or configures single image. We Use for heavy modifcations to php-apache image
@@ -63,7 +64,7 @@ TODO
 
 ## docker-compose.yml
 
-![image-20220228003239281](C:\Users\nikhil\AppData\Roaming\Typora\typora-user-images\image-20220228003239281.png)
+![image-20220228003239281](./images/image-20220228003239281.png)
 
 ## DOCKERFile
 
