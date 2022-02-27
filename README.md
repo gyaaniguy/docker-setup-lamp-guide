@@ -28,7 +28,7 @@ We keep ALL our source code in wsl filesystem. Helps with compatibility, permiss
 
 - Download > install > start dashboard . Enable following:
 
-![imag](image-20220227224505158.png)
+![imag](./images/image-20220227224505158.png)
 
 - Restart docker. start dashboard. Enable following
 
